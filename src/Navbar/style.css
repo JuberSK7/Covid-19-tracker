@@ -1,0 +1,44 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 92px;
+}
+.nav img{
+    height: 60px;
+    
+}
+@media (max-width: 664px) {
+    .nav img{
+        height: 40px;
+    }
+    
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-top: 14px;
+    width: 400px;
+   
+}
+@media (max-width: 664px) {
+    .nav ul{
+        display: none;
+    }
+    
+}
+
+.nav ul li{
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    list-style: none;
+    padding:  18px 14px;
+    cursor: pointer;
+}
+.nav ul li:hover{
+    color: rgb(202, 202, 71);
+    font-size: 15px;
+    transition: all 0.1s;
+}

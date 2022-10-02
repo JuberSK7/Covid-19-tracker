@@ -1,0 +1,128 @@
+.covid-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #021859;
+    height: 600px;
+   
+    
+}
+@media (max-width: 664px) {
+    .covid-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 1100px;
+    }
+    
+}
+
+
+
+
+
+.left-div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 66px;
+    
+}  
+
+.left-div h2{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+    
+}
+.left-div p{
+    color: #fff;
+    font-size: 17px;
+    
+}
+.left-div button{
+    background-color: #D9CB03;
+    padding: 12px 24px;
+    color: #000;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 664px) {
+    .left-div{
+        margin-left: 33px;
+    }
+    .left-div h2{
+        font-size: 32px;
+    }
+}
+
+
+
+
+
+.right-div{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ height: 200px;
+margin-right: 66px;
+margin-top: 7rem;
+   
+}
+@media (max-width: 664px) {
+    .right-div{
+        grid-template-columns: 1fr 1fr ;
+        margin-right: 0px;
+        margin-top: 0px;
+    } 
+    
+}
+.card__main{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background-color: #fff;
+border-radius: 8px;
+padding: 12px;
+gap: 12px;
+margin: 8px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+cursor: pointer;
+}
+
+.card__main:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
+.card-name{
+    color: rgb(19, 19, 19);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-name span{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.card-info{
+    font-size: 24px;
+    font-weight: 800;
+}
+@media (max-width: 664px) {
+    .card-name{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .card-info{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    
+}
