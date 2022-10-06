@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "./navbar.css";
 import Logo from "../assests/logo.svg";
 import LogoUs from "../assests/logo-us.png";
 
